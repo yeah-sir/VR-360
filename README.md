@@ -12,7 +12,7 @@ An iOS application that helps you look up 360 images to be viewed on cardoard ap
 * Amazon Alexa
 * IBM Natural Language Classifier
 * AWS Lambda functions
-* Flicker
+* Flickr
 
 ### Implementation
 
@@ -31,10 +31,10 @@ to interact with the app. Amazon Alexa served as our primary mode of taking user
 "Show me pictures from New York in the evening" or "Techcrunch at 3am"
 
 - IBM Natural Language Classifiers was used to convert the different ways time related information might be stated by the user into classes
-of time understood by the app. The classifier uses four buckets : "day", "night", "sunrise" and "sunset" which serve as time related tags 
+of time understood by the app. The classifier uses four buckets : "day", "night", "sunrise" and "sunset" which serve as time related tags
 for the images.
 
 - AWS Lambda functions provided serverless microservices that were used for setting up the Amazon echo intent logics and an API for Unity to
 search image URLs from Flicker based on the voice input that from Alexa after it was parsed by the IBM NLC logic.
 
-- Flicker served as the storage for our images to be stored with tags that could be interpreted by the image serach API
+- Flickr served as the storage for our images to be stored with tags that could be interpreted by the image serach API
