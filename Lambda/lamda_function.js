@@ -47,7 +47,7 @@ var logResponse = function(response, context) {
   
   response.on('end', function () {
     var obj = JSON.parse(str);
-    getPics("day");
+    getPics(obj.top_class);
   });
 };
 
