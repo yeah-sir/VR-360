@@ -1,5 +1,7 @@
 # VR-360
 
+(Due to the large size of files in the Unity project, the code is uploaded to dropbox: https://www.dropbox.com/sh/nu3kgm5efojznl0/AACR46wQmXmkTBbWcIckhfHGa?dl=0 )
+
 An iOS application that helps you look up 360 images to be viewed on cardoard apps based on time and location.
 
 ### Technologies used
